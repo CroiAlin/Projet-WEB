@@ -1,27 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DUCATI</title>
+    <title>MotoMoto - DUCATI</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <meta name="description" content="Découvrez nos modèles DUCATI disponibles à la vente.">
     <meta name="keywords" content="DUCATI, motos, vente, modèles DUCATI">
-    <meta name="author" content="Croitoru ALin">
-
-    <nav class="main_navbar">
-            <img src="images/logo_garage.png" alt="MotoMoto Logo" style="width:100px;height:auto;"> 
-            <a href="index.html">Accueil</a>
-            <a href="kawasaki.html">Kawasaki</a>
-            <a href="ducati.html">Ducati</a>
-            <a href="bmw.html">BMW</a>
-            <a href="services_contact.html">Services</a>
-    </nav>
+    <meta name="author" content="Croitoru Alin">
 </head>
 <body>
-    <h1>Bienvenue sur la page DUCATI</h1>
-    <img src="images/ducati/logo.png" alt="DUCATI Motorcycle logo" style="width:300px;height:auto;">
-    <p>Découvrez nos modèles DUCATI disponibles à la vente.</p>
+    <header>
+        <nav class="main_navbar">
+            <a href="index.html">
+                <img src="images/logo_garage.png" alt="MotoMoto Logo" class="navbar-logo">
+            </a>
+            <div class="navbar-links">
+                <a href="index.html">Accueil</a>
+                <a href="kawasaki.html">Kawasaki</a>
+                <a href="ducati.html">Ducati</a>
+                <a href="bmw.html">BMW</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="ducati-hero">
+    
+            <img src="images/ducati/logo.png" alt="DUCATI Motorcycle logo" class="brand-logo">
+            <p>Découvrez nos modèles DUCATI disponibles à la vente.</p>
+        </section>
+
+        <section class="motorcycles-gallery">
+            <h2>Nos modèles DUCATI</h2>
+            <div class="grid-gallery">
+                <article class="motorcycle-card">
+                    <img src="images/ducati/diavel.png" alt="Ducati Diavel">
+                    <h3>Ducati Diavel</h3>
+                    <p class="price">18 990 €</p>
+                    <p class="description">Power cruiser emblématique avec moteur Testastretta.</p>
+                </article>
+
+                <article class="motorcycle-card">
+                    <img src="images/ducati/monster_sp.png" alt="Ducati Monster SP">
+                    <h3>Ducati Monster SP</h3>
+                    <p class="price">16 490 €</p>
+                    <p class="description">Naked bike sportive au design iconique.</p>
+                </article>
+
+                <article class="motorcycle-card">
+                    <img src="images/ducati/streetfighter_v2.png" alt="Ducati Streetfighter V2">
+                    <h3>Ducati Streetfighter V2</h3>
+                    <p class="price">19 990 €</p>
+                    <p class="description">Supernaked dérivée de la Panigale V2.</p>
+                </article>
+            </div>
+        </section>
+
+        <aside class="ducati-info">
+            <h3>Pourquoi choisir DUCATI ?</h3>
+            <p>Performance italienne, design exceptionnel et technologie de pointe au service de votre passion.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MotoMoto - On vous paie la différence si vous trouvez moins cher ailleurs !</p>
+    </footer>
 </body>
 </html>

@@ -1,26 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MotoMoto</title>
+    <title>MotoMoto - Accueil</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <meta name="description" content="On vous paie la différence si vous trouvez moins cher ailleurs !">
     <meta name="keywords" content="motos, vente, modèles de motos, Kawasaki, Ducati, BMW, services motos, prix bas">
     <meta name="author" content="Croitoru Alin">
-
-    <nav class="main_navbar">
-            <img src="images/logo_garage.png" alt="MotoMoto Logo" style="width:100px;height:auto;">
-            <a href="index.html">Accueil</a>
-            <a href="kawasaki.html">Kawasaki</a>
-            <a href="ducati.html">Ducati</a>
-            <a href="bmw.html">BMW</a>
-            <a href="services_contact.html">Services</a>
-    </nav>
 </head>
 <body>
-    <h1>Bienvenue sur MotoMoto</h1>
-    <p>On vous paie la différence si vous trouvez moins cher ailleurs !</p>
+    <header>
+        <nav class="main_navbar">
+            <a href="index.html">
+                <img src="images/logo_garage.png" alt="MotoMoto Logo" class="navbar-logo">
+            </a>
+            <div class="navbar-links">
+                <a href="index.html">Accueil</a>
+                <a href="kawasaki.html">Kawasaki</a>
+                <a href="ducati.html">Ducati</a>
+                <a href="bmw.html">BMW</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <!-- Section Hero -->
+        <section class="hero-section">
+            <article class="hero-content">
+                <h1>Bienvenue chez MotoMoto</h1>
+                <p class="hero-tagline">On vous paie la différence si vous trouvez moins cher ailleurs !</p>
+                <p class="hero-description">Votre garage spécialisé dans les motos premium : Kawasaki, Ducati et BMW</p>
+            </article>
+        </section>
+
+        <!-- Section Services -->
+        <section class="services-section">
+            <div class="service-content">
+                <div class="service-image">
+                    <img src="images/homepage/service_reparation.jpg" alt="Service de réparation moto">
+                </div>
+                <article class="service-text">
+                    <h2>Entretien & Réparation Moto</h2>
+                    <p>Notre équipe de mécaniciens experts vous propose un service complet d'entretien et de réparation pour toutes les marques de motos.</p>
+                    <ul>
+                        <li> - Révision complète et vidange</li>
+                        <li> - Diagnostic électronique avancé</li>
+                        <li> - Réparation moteur et transmission</li>
+                        <li> - Entretien freins et suspension</li>
+                        <li> - Préparation pour contrôle technique</li>
+                    </ul>
+                    <p><strong>Garantie 12 mois sur toutes nos interventions</strong></p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Marques -->
+        <section class="brands-section">
+            <h2>Les marques avec lesquelles nous travaillons</h2>
+            <div class="brands-gallery">
+                <div class="brand-card" data-brand="Kawasaki">
+                    <img src="images/homepage/kawasaki.jpg" alt="Moto Kawasaki">
+                    <div class="brand-overlay">
+                        <h3>Kawasaki</h3>
+                    </div>
+                </div>
+                
+                <div class="brand-card" data-brand="Ducati">
+                    <img src="images/homepage/Ducati.jpg" alt="Moto Ducati">
+                    <div class="brand-overlay">
+                        <h3>Ducati</h3>
+                    </div>
+                </div>
+                
+                <div class="brand-card" data-brand="BMW">
+                    <img src="images/homepage/BMW.jpg" alt="Moto BMW">
+                    <div class="brand-overlay">
+                        <h3>BMW</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside class="cta-section">
+            <h3>Prêt à découvrir nos modèles ?</h3>
+            <p>Contactez-nous pour un essai gratuit ou visitez notre showroom !</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MotoMoto - On vous paie la différence si vous trouvez moins cher ailleurs !</p>
+    </footer>
 </body>
 </html>

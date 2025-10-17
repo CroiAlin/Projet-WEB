@@ -3,3 +3,5 @@
 *.gcno
 *.gcda
 *.gcov
+DOC/ENONCE_PROJET.pdf
+.github/copilot-instructions.md
